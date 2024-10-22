@@ -9,30 +9,30 @@ z2
 cModel Technology
 Z0 dC:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/simulation/modelsim
 vALU
-Z1 !s110 1729635765
+Z1 !s110 1729636407
 !i10b 1
-!s100 70^m=Q1T@^]U=6>hY;0WP3
-IiQmYQTd4h^^[j[h>L<Mo50
+!s100 U1P7N5G:EdJT]6U>FFOjX1
+Ib>]lJkiN`b>1VdS[Ib4T_0
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z3 w1729632684
+w1729636321
 8C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/ALU.v
 FC:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/ALU.v
-Z4 L0 23
-Z5 OV;L;10.5b;63
+Z3 L0 23
+Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z6 !s108 1729635765.000000
+Z5 !s108 1729636407.000000
 !s107 C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/ALU.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src|C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/ALU.v|
 !i113 1
-Z7 o-vlog01compat -work work
-Z8 !s92 -vlog01compat -work work +incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src
-Z9 tCvgOpt 0
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src
+Z8 tCvgOpt 0
 n@a@l@u
 vBSRAM
-R1
+Z9 !s110 1729636406
 !i10b 1
 !s100 1Nm6:97HW0S1OJ6zNm=ka1
 IJcec:gQ9oSNAOiAejRa<d3
@@ -42,20 +42,20 @@ Z10 w1729632685
 8C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/src/BSRAM.v
 FC:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/src/BSRAM.v
 Z11 L0 24
-R5
+R4
 r1
 !s85 0
 31
-R6
+Z12 !s108 1729636406.000000
 !s107 C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/src/BSRAM.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/src|C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/src/BSRAM.v|
 !i113 1
-R7
-Z12 !s92 -vlog01compat -work work +incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/src
-R9
+R6
+Z13 !s92 -vlog01compat -work work +incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/src
+R8
 n@b@s@r@a@m
 vBSRAM_byte_en
-R1
+R9
 !i10b 1
 !s100 mV]1R6CLP^N:KTRkhe_BM0
 ITH02<caA0:jBgC:So>DeL1
@@ -64,18 +64,18 @@ R0
 R10
 8C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/src/BSRAM_byte_en.v
 FC:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/src/BSRAM_byte_en.v
+R3
 R4
-R5
 r1
 !s85 0
 31
-R6
+R12
 !s107 C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/src/BSRAM_byte_en.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/src|C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/src/BSRAM_byte_en.v|
 !i113 1
-R7
-R12
-R9
+R6
+R13
+R8
 n@b@s@r@a@m_byte_en
 vcontrol_unit
 R1
@@ -84,21 +84,21 @@ R1
 IUHhYQSd4Q?:U9XbbFE1U;3
 R2
 R0
-R3
+Z14 w1729632684
 8C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/control_unit.v
 FC:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/control_unit.v
 L0 25
-R5
+R4
 r1
 !s85 0
 31
-R6
+R5
 !s107 C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/control_unit.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src|C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/control_unit.v|
 !i113 1
+R6
 R7
 R8
-R9
 vdecode_unit
 R1
 !i10b 1
@@ -106,21 +106,21 @@ R1
 I7Tb]86ZdTeJE7Hdn:9BCS0
 R2
 R0
-R3
+R14
 8C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/decode_unit.v
 FC:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/decode_unit.v
 R11
-R5
+R4
 r1
 !s85 0
 31
-R6
+R5
 !s107 C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/decode_unit.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src|C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/decode_unit.v|
 !i113 1
+R6
 R7
 R8
-R9
 vexecution_unit
 R1
 !i10b 1
@@ -128,21 +128,21 @@ R1
 I[;34>5@_VY>YN0j7kj39f0
 R2
 R0
-R3
+R14
 8C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/execution_unit.v
 FC:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/execution_unit.v
 R11
-R5
+R4
 r1
 !s85 0
 31
-R6
+R5
 !s107 C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/execution_unit.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src|C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/execution_unit.v|
 !i113 1
+R6
 R7
 R8
-R9
 vfetch_issue
 R1
 !i10b 1
@@ -150,21 +150,21 @@ R1
 IKo47eK182c?4GziaWC0hH2
 R2
 R0
-R3
+R14
 8C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/fetch_issue.v
 FC:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/fetch_issue.v
+R3
 R4
-R5
 r1
 !s85 0
 31
-R6
+R5
 !s107 C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/fetch_issue.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src|C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/fetch_issue.v|
 !i113 1
+R6
 R7
 R8
-R9
 vfetch_receive
 R1
 !i10b 1
@@ -172,21 +172,21 @@ R1
 If6<`HR41Vdc4hnN]6I[D83
 R2
 R0
-R3
+R14
 8C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/fetch_receive.v
 FC:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/fetch_receive.v
+R3
 R4
-R5
 r1
 !s85 0
 31
-R6
+R5
 !s107 C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/fetch_receive.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src|C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/fetch_receive.v|
 !i113 1
+R6
 R7
 R8
-R9
 vhazard_detection_unit
 R1
 !i10b 1
@@ -194,23 +194,23 @@ R1
 Ie?KaS[z17^lm]g0ll24_^2
 R2
 R0
-R3
+R14
 8C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/hazard_detection_unit.v
 FC:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/hazard_detection_unit.v
+R3
 R4
-R5
 r1
 !s85 0
 31
-R6
+R5
 !s107 C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/hazard_detection_unit.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src|C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/hazard_detection_unit.v|
 !i113 1
+R6
 R7
 R8
-R9
 vmemory_interface
-R1
+R9
 !i10b 1
 !s100 gV5U_8jFdL?Pd;TCDTN132
 IMk>YagDMdKWDZj6icNmU]0
@@ -219,18 +219,18 @@ R0
 R10
 8C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/src/memory_interface.v
 FC:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/src/memory_interface.v
+R3
 R4
-R5
 r1
 !s85 0
 31
-R6
+R12
 !s107 C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/src/memory_interface.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/src|C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/src/memory_interface.v|
 !i113 1
-R7
-R12
-R9
+R6
+R13
+R8
 vmemory_issue
 R1
 !i10b 1
@@ -238,21 +238,21 @@ R1
 I=eLEdVMjWGk:iDVfoQ@[n1
 R2
 R0
-R3
+R14
 8C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/memory_issue.v
 FC:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/memory_issue.v
+R3
 R4
-R5
 r1
 !s85 0
 31
-R6
+R5
 !s107 C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/memory_issue.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src|C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/memory_issue.v|
 !i113 1
+R6
 R7
 R8
-R9
 vmemory_receive
 R1
 !i10b 1
@@ -260,21 +260,21 @@ R1
 Ic8^<nOgA6H`A]@Imj4dPU0
 R2
 R0
-R3
+R14
 8C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/memory_receive.v
 FC:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/memory_receive.v
+R3
 R4
-R5
 r1
 !s85 0
 31
-R6
+R5
 !s107 C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/memory_receive.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src|C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/memory_receive.v|
 !i113 1
+R6
 R7
 R8
-R9
 vregFile
 R1
 !i10b 1
@@ -282,21 +282,21 @@ R1
 Ik=]UG`dLzL>FRzjW1`dLg0
 R2
 R0
-R3
+R14
 8C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/regFile.v
 FC:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/regFile.v
 R11
-R5
+R4
 r1
 !s85 0
 31
-R6
+R5
 !s107 C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/regFile.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src|C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/regFile.v|
 !i113 1
+R6
 R7
 R8
-R9
 nreg@file
 vsingle_cycle_control_unit
 R1
@@ -305,21 +305,21 @@ R1
 I?C^FQVaf7USEO>PWTE8RA2
 R2
 R0
-R3
+R14
 8C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/single_cycle/src/single_cycle_control_unit.v
 FC:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/single_cycle/src/single_cycle_control_unit.v
+R3
 R4
-R5
 r1
 !s85 0
 31
-R6
+R5
 !s107 C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/single_cycle/src/single_cycle_control_unit.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/single_cycle/src|C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/single_cycle/src/single_cycle_control_unit.v|
 !i113 1
-R7
-Z13 !s92 -vlog01compat -work work +incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/single_cycle/src
-R9
+R6
+Z15 !s92 -vlog01compat -work work +incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/single_cycle/src
+R8
 vsingle_cycle_core
 R1
 !i10b 1
@@ -327,23 +327,23 @@ R1
 IO2]go]5JI7;T6cPeN8z740
 R2
 R0
-R3
+R14
 8C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/single_cycle/src/single_cycle_core.v
 FC:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/single_cycle/src/single_cycle_core.v
+R3
 R4
-R5
 r1
 !s85 0
 31
-R6
+R5
 !s107 C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/single_cycle/src/single_cycle_core.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/single_cycle/src|C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/single_cycle/src/single_cycle_core.v|
 !i113 1
-R7
-R13
-R9
+R6
+R15
+R8
 vsingle_cycle_memory_subsystem
-R1
+R9
 !i10b 1
 !s100 Nn[jhH4T3AiaO_l`6cH4O1
 Iizz4]T1UR6B8Me?4_aO1W3
@@ -352,20 +352,20 @@ R0
 R10
 8C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/memory/single_cycle_memory/src/single_cycle_memory_subsystem.v
 FC:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/memory/single_cycle_memory/src/single_cycle_memory_subsystem.v
+R3
 R4
-R5
 r1
 !s85 0
 31
-Z14 !s108 1729635764.000000
+R12
 !s107 C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/memory/single_cycle_memory/src/single_cycle_memory_subsystem.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/memory/single_cycle_memory/src|C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/memory/single_cycle_memory/src/single_cycle_memory_subsystem.v|
 !i113 1
-R7
+R6
 !s92 -vlog01compat -work work +incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/memory/single_cycle_memory/src
-R9
+R8
 vsingle_cycle_top
-!s110 1729635764
+R9
 !i10b 1
 !s100 VZTIIiag_:KFUJZ6IZ?ZW0
 Im8W4Q:NQXl0^:inPfoVg72
@@ -374,18 +374,18 @@ R0
 R10
 8C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/tops/src/single_cycle_top.v
 FC:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/tops/src/single_cycle_top.v
+R3
 R4
-R5
 r1
 !s85 0
 31
-R14
+R12
 !s107 C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/tops/src/single_cycle_top.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/tops/src|C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/tops/src/single_cycle_top.v|
 !i113 1
-R7
+R6
 !s92 -vlog01compat -work work +incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/tops/src
-R9
+R8
 vtb_single_cycle_top_primes
 R1
 !i10b 1
@@ -397,17 +397,17 @@ w1729633673
 8C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/tops/tb/tb_single_cycle_top_primes.v
 FC:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/tops/tb/tb_single_cycle_top_primes.v
 L0 39
-R5
+R4
 r1
 !s85 0
 31
-R6
+R5
 !s107 C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/tops/tb/tb_single_cycle_top_primes.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/tops/tb|C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/tops/tb/tb_single_cycle_top_primes.v|
 !i113 1
-R7
+R6
 !s92 -vlog01compat -work work +incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/tops/tb
-R9
+R8
 vwriteback_unit
 R1
 !i10b 1
@@ -415,18 +415,18 @@ R1
 IE>D1=ai4aUhHG6JdFgTZG2
 R2
 R0
-R3
+R14
 8C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/writeback_unit.v
 FC:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/writeback_unit.v
+R3
 R4
-R5
 r1
 !s85 0
 31
-R6
+R5
 !s107 C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/writeback_unit.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src|C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/writeback_unit.v|
 !i113 1
+R6
 R7
 R8
-R9
