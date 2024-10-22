@@ -12,200 +12,200 @@
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/tops/src {C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/tops/src/single_cycle_top.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:50:25 on Oct 22,2024
+# Start time: 18:22:44 on Oct 22,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/tops/src" C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/tops/src/single_cycle_top.v 
 # -- Compiling module single_cycle_top
 # 
 # Top level modules:
 # 	single_cycle_top
-# End time: 17:50:25 on Oct 22,2024, Elapsed time: 0:00:00
+# End time: 18:22:44 on Oct 22,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/memory/single_cycle_memory/src {C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/memory/single_cycle_memory/src/single_cycle_memory_subsystem.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:50:25 on Oct 22,2024
+# Start time: 18:22:44 on Oct 22,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/memory/single_cycle_memory/src" C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/memory/single_cycle_memory/src/single_cycle_memory_subsystem.v 
 # -- Compiling module single_cycle_memory_subsystem
 # 
 # Top level modules:
 # 	single_cycle_memory_subsystem
-# End time: 17:50:25 on Oct 22,2024, Elapsed time: 0:00:00
+# End time: 18:22:45 on Oct 22,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/src {C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/src/memory_interface.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:50:25 on Oct 22,2024
+# Start time: 18:22:45 on Oct 22,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/src" C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/src/memory_interface.v 
 # -- Compiling module memory_interface
 # 
 # Top level modules:
 # 	memory_interface
-# End time: 17:50:25 on Oct 22,2024, Elapsed time: 0:00:00
+# End time: 18:22:45 on Oct 22,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/src {C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/src/BSRAM_byte_en.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:50:25 on Oct 22,2024
+# Start time: 18:22:45 on Oct 22,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/src" C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/src/BSRAM_byte_en.v 
 # -- Compiling module BSRAM_byte_en
 # 
 # Top level modules:
 # 	BSRAM_byte_en
-# End time: 17:50:25 on Oct 22,2024, Elapsed time: 0:00:00
+# End time: 18:22:45 on Oct 22,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/src {C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/src/BSRAM.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:50:25 on Oct 22,2024
+# Start time: 18:22:45 on Oct 22,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/src" C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/src/BSRAM.v 
 # -- Compiling module BSRAM
 # 
 # Top level modules:
 # 	BSRAM
-# End time: 17:50:25 on Oct 22,2024, Elapsed time: 0:00:00
+# End time: 18:22:45 on Oct 22,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/single_cycle/src {C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/single_cycle/src/single_cycle_core.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:50:25 on Oct 22,2024
+# Start time: 18:22:45 on Oct 22,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/single_cycle/src" C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/single_cycle/src/single_cycle_core.v 
 # -- Compiling module single_cycle_core
 # 
 # Top level modules:
 # 	single_cycle_core
-# End time: 17:50:25 on Oct 22,2024, Elapsed time: 0:00:00
+# End time: 18:22:45 on Oct 22,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/single_cycle/src {C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/single_cycle/src/single_cycle_control_unit.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:50:25 on Oct 22,2024
+# Start time: 18:22:45 on Oct 22,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/single_cycle/src" C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/single_cycle/src/single_cycle_control_unit.v 
 # -- Compiling module single_cycle_control_unit
 # 
 # Top level modules:
 # 	single_cycle_control_unit
-# End time: 17:50:25 on Oct 22,2024, Elapsed time: 0:00:00
+# End time: 18:22:45 on Oct 22,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src {C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/writeback_unit.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:50:25 on Oct 22,2024
+# Start time: 18:22:45 on Oct 22,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src" C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/writeback_unit.v 
 # -- Compiling module writeback_unit
 # 
 # Top level modules:
 # 	writeback_unit
-# End time: 17:50:25 on Oct 22,2024, Elapsed time: 0:00:00
+# End time: 18:22:45 on Oct 22,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src {C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/regFile.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:50:26 on Oct 22,2024
+# Start time: 18:22:45 on Oct 22,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src" C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/regFile.v 
 # -- Compiling module regFile
 # 
 # Top level modules:
 # 	regFile
-# End time: 17:50:26 on Oct 22,2024, Elapsed time: 0:00:00
+# End time: 18:22:45 on Oct 22,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src {C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/memory_receive.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:50:26 on Oct 22,2024
+# Start time: 18:22:45 on Oct 22,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src" C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/memory_receive.v 
 # -- Compiling module memory_receive
 # 
 # Top level modules:
 # 	memory_receive
-# End time: 17:50:26 on Oct 22,2024, Elapsed time: 0:00:00
+# End time: 18:22:45 on Oct 22,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src {C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/memory_issue.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:50:26 on Oct 22,2024
+# Start time: 18:22:45 on Oct 22,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src" C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/memory_issue.v 
 # -- Compiling module memory_issue
 # 
 # Top level modules:
 # 	memory_issue
-# End time: 17:50:26 on Oct 22,2024, Elapsed time: 0:00:00
+# End time: 18:22:45 on Oct 22,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src {C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/hazard_detection_unit.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:50:26 on Oct 22,2024
+# Start time: 18:22:45 on Oct 22,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src" C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/hazard_detection_unit.v 
 # -- Compiling module hazard_detection_unit
 # 
 # Top level modules:
 # 	hazard_detection_unit
-# End time: 17:50:26 on Oct 22,2024, Elapsed time: 0:00:00
+# End time: 18:22:45 on Oct 22,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src {C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/fetch_receive.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:50:26 on Oct 22,2024
+# Start time: 18:22:45 on Oct 22,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src" C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/fetch_receive.v 
 # -- Compiling module fetch_receive
 # 
 # Top level modules:
 # 	fetch_receive
-# End time: 17:50:26 on Oct 22,2024, Elapsed time: 0:00:00
+# End time: 18:22:45 on Oct 22,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src {C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/fetch_issue.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:50:26 on Oct 22,2024
+# Start time: 18:22:45 on Oct 22,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src" C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/fetch_issue.v 
 # -- Compiling module fetch_issue
 # 
 # Top level modules:
 # 	fetch_issue
-# End time: 17:50:26 on Oct 22,2024, Elapsed time: 0:00:00
+# End time: 18:22:45 on Oct 22,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src {C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/execution_unit.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:50:26 on Oct 22,2024
+# Start time: 18:22:45 on Oct 22,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src" C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/execution_unit.v 
 # -- Compiling module execution_unit
 # 
 # Top level modules:
 # 	execution_unit
-# End time: 17:50:26 on Oct 22,2024, Elapsed time: 0:00:00
+# End time: 18:22:45 on Oct 22,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src {C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/decode_unit.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:50:26 on Oct 22,2024
+# Start time: 18:22:45 on Oct 22,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src" C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/decode_unit.v 
 # -- Compiling module decode_unit
 # 
 # Top level modules:
 # 	decode_unit
-# End time: 17:50:26 on Oct 22,2024, Elapsed time: 0:00:00
+# End time: 18:22:45 on Oct 22,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src {C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/control_unit.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:50:26 on Oct 22,2024
+# Start time: 18:22:45 on Oct 22,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src" C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/control_unit.v 
 # -- Compiling module control_unit
 # 
 # Top level modules:
 # 	control_unit
-# End time: 17:50:26 on Oct 22,2024, Elapsed time: 0:00:00
+# End time: 18:22:45 on Oct 22,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src {C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/ALU.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:50:26 on Oct 22,2024
+# Start time: 18:22:45 on Oct 22,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src" C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/ALU.v 
 # -- Compiling module ALU
 # 
 # Top level modules:
 # 	ALU
-# End time: 17:50:26 on Oct 22,2024, Elapsed time: 0:00:00
+# End time: 18:22:45 on Oct 22,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/tops/tb {C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/tops/tb/tb_single_cycle_top_mandelbrot.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/tops/tb {C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/tops/tb/tb_single_cycle_top_primes.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:50:26 on Oct 22,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/tops/tb" C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/tops/tb/tb_single_cycle_top_mandelbrot.v 
-# -- Compiling module tb_single_cycle_top_mandelbrot
+# Start time: 18:22:45 on Oct 22,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/tops/tb" C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/tops/tb/tb_single_cycle_top_primes.v 
+# -- Compiling module tb_single_cycle_top_primes
 # 
 # Top level modules:
-# 	tb_single_cycle_top_mandelbrot
-# End time: 17:50:26 on Oct 22,2024, Elapsed time: 0:00:00
+# 	tb_single_cycle_top_primes
+# End time: 18:22:45 on Oct 22,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_single_cycle_top_mandelbrot
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb_single_cycle_top_mandelbrot 
-# Start time: 17:50:26 on Oct 22,2024
-# Loading work.tb_single_cycle_top_mandelbrot
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_single_cycle_top_primes
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb_single_cycle_top_primes 
+# Start time: 18:22:45 on Oct 22,2024
+# Loading work.tb_single_cycle_top_primes
 # Loading work.single_cycle_top
 # Loading work.single_cycle_core
 # Loading work.fetch_issue
@@ -232,16 +232,16 @@
 # .main_pane.objects.interior.cs.body.tree
 # run -all
 # 
-# Run Time (cycles):      488560
+# Run Time (cycles):      106031
 # 
-# tb_single_cycle_top (Mandelbrot) --> Test Passed!
+# tb_single_cycle_top (Count Primes) --> Test Passed!
 # 
 # 
 # 
-# Result:          2
+# Result:         15
 # 
-# ** Note: $stop    : C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/tops/tb/tb_single_cycle_top_mandelbrot.v(160)
-#    Time: 977231 ps  Iteration: 0  Instance: /tb_single_cycle_top_mandelbrot
-# Break in Module tb_single_cycle_top_mandelbrot at C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/tops/tb/tb_single_cycle_top_mandelbrot.v line 160
-# End time: 17:51:34 on Oct 22,2024, Elapsed time: 0:01:08
+# ** Note: $stop    : C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/tops/tb/tb_single_cycle_top_primes.v(158)
+#    Time: 212173 ps  Iteration: 0  Instance: /tb_single_cycle_top_primes
+# Break in Module tb_single_cycle_top_primes at C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/tops/tb/tb_single_cycle_top_primes.v line 158
+# End time: 18:23:13 on Oct 22,2024, Elapsed time: 0:00:28
 # Errors: 0, Warnings: 0

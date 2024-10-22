@@ -24,9 +24,9 @@ vlog -vlog01compat -work work +incdir+C:/Users/Chris/Desktop/Projects/Senior_Des
 vlog -vlog01compat -work work +incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src {C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/control_unit.v}
 vlog -vlog01compat -work work +incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src {C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/ALU.v}
 
-vlog -vlog01compat -work work +incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/tops/tb {C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/tops/tb/tb_single_cycle_top_primes.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/tops/tb {C:/Users/Chris/Desktop/Projects/Senior_Design/Original_Trireme/Trireme_Platform_v1.1/Trireme_Design/rtl/tops/tb/tb_single_cycle_top_mandelbrot.v}
 
-vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_single_cycle_top_primes
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_single_cycle_top_mandelbrot
 
 add wave *
 view structure

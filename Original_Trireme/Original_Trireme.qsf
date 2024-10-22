@@ -148,6 +148,6 @@ set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tb_single_cycle_top_prime
 set_global_assignment -name EDA_TEST_BENCH_NAME tb_single_cycle_top_mandelbrot -section_id eda_simulation
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id tb_single_cycle_top_mandelbrot
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tb_single_cycle_top_mandelbrot -section_id tb_single_cycle_top_mandelbrot
-set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
 set_global_assignment -name EDA_TEST_BENCH_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/tops/tb/tb_single_cycle_top_primes.v -section_id tb_single_cycle_top_primes
 set_global_assignment -name EDA_TEST_BENCH_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/tops/tb/tb_single_cycle_top_mandelbrot.v -section_id tb_single_cycle_top_mandelbrot
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
