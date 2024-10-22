@@ -1,0 +1,54 @@
+# Misc files
+**/*.DS_store
+**/*.bak
+**/*.swp
+
+# Do not commit sim directories from the rtl directory.
+rtl/**/sim/*
+
+# Do not commit Quartus projects files that are not needed for scripted
+# project generation
+rtl/**/Quartus/*
+# Do not commit work directories anywhere in the repo.
+**/work/*
+
+**/*.qpf
+**/*.qsf
+**/*.qwf
+**/*.qws
+**/*.stp
+# .sdc files will be commited in /quartus/<project name>/ directories.
+rtl/*.sdc
+# some .sof files will be commited in /quartus/<project name>/ directories.
+# These .sof files are for demonstrations
+rtl/*.sof
+# Do not commit any Quartus output files
+**/output_files/*
+**/PLLJ_PLLSPE_INFO.txt
+
+# Do not commit compiled binaries.
+# This is now handled with a git ignore in the binaries directory. We need the
+# binaries directory to exist in the repo so scripts work out-of-the-box.
+#software/applications/binaries/*
+
+
+# Do not commit memory images
+software/**/*.img
+
+# Ignore .x files. These are incomplete verilog files that have been renamed to
+# avoid compilation errors.
+rtl/**/*.x
+
+# Do not commit simulation output files
+tests/sim/work/*
+modelsim/work/*
+modelsim/*.txt
+modelsim/*.vcd
+modelsim/transcript
+modelsim/*.wlf
+modelsim/mesh_results
+
+# Ignore BSP output files
+software/bsp/**/*.o
+software/bsp/**/*.a
+software/lib/*

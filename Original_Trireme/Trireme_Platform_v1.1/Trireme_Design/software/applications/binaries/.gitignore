@@ -1,0 +1,5 @@
+# Do not commit any binaries.
+*
+# Only track the git ignore file. This way, the binaries directory is inclued in
+# the GIT repo and scripts will not break because it is missing.
+!.gitignore

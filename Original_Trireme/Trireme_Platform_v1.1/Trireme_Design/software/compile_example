@@ -1,0 +1,40 @@
+#!/bin/bash
+
+################################################################################
+# LOCAL_ADDRESS_BITS = 12
+################################################################################
+#./trireme_gcc -o applications/binaries/$1_poor_processor \
+#  --vmh applications/binaries/$1_poor_processor.vmh \
+#  --dump applications/binaries/$1_poor_processor.dump \
+#  --raw-binary applications/binaries/$1_poor_processor.bin  \
+#  --ram-size 12288 --start-addr 768 --link-libgloss \
+#  --stack-addr 12284 --stack-size 4096 --heap-size 4096 \
+#  applications/src/$1.c
+
+
+# Pad the binary to the size of the application/non-bootloader memory so it can
+# be uploaded over the UART
+#./helper_scripts/pad_binary.py applications/binaries/$1_poor_processor.bin 3328
+
+################################################################################
+# LOCAL_ADDRESS_BITS = 18
+################################################################################
+TMP_PARAMS=/tmp/poor_processor_arch_params.txt
+
+echo "UART_RX_PORT:0xc0010" >  $TMP_PARAMS
+echo "UART_TX_PORT:0xc0020" >> $TMP_PARAMS
+
+./trireme_gcc -o applications/binaries/$1_poor_processor \
+  --vmh applications/binaries/$1_poor_processor.vmh \
+  --dump applications/binaries/$1_poor_processor.dump \
+  --raw-binary applications/binaries/$1_poor_processor.bin  \
+  --ram-size 786432 --start-addr 768 --link-libgloss nosys_trireme32 \
+  --stack-addr 786432 --stack-size 262144 --heap-size 262144 \
+  --arch-params $TMP_PARAMS \
+  applications/src/$1.c
+
+# Pad the binary to the size of the application/non-bootloader memory so it can
+# be uploaded over the UART
+./helper_scripts/pad_binary.py applications/binaries/$1_poor_processor.bin 261376
+
+rm $TMP_PARAMS > /dev/null 2>&1

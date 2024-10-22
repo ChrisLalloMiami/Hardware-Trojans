@@ -1,0 +1,16 @@
+# Quartus generated files
+db/
+incremental_db/
+output_files/
+*.rpt
+*.smsg
+*.jdi
+
+# Backup and log files
+*.bak
+*.log
+*.tcl.bak
+
+# Operating system specific
+.DS_Store
+Thumbs.db

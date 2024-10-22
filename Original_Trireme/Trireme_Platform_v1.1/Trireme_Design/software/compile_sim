@@ -1,0 +1,9 @@
+#!/bin/bash
+
+./trireme_gcc -o applications/binaries/$1 \
+  --vmh applications/binaries/@default_name \
+  --dump applications/binaries/@default_name \
+  --raw-binary applications/binaries/@default_name \
+  applications/src/$1.c --ram-size 2048 --link-libgloss nosys_trireme32 \
+  --stack-addr 2048 --stack-size 512 --start-addr 0 \
+  --heap-size 512

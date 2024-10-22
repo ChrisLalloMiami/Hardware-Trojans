@@ -1,0 +1,11 @@
+#!/bin/bash
+
+./trireme_gcc -Ttext 0x0000 \
+  -o applications/binaries/$1 \
+  applications/src/$1.s \
+  -nostartfiles -nostdlib \
+  --omit-init-fini \
+  --dump applications/binaries/@default_name \
+  --vmh applications/binaries/@default_name \
+  --raw-binary applications/binaries/@default_name
+

@@ -1,0 +1,153 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2019  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+# Date created = 17:33:42  October 22, 2024
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		Original_Trireme_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name DEVICE 5CGXFC7C7F23C8
+set_global_assignment -name TOP_LEVEL_ENTITY single_cycle_top
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 19.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "17:33:42  OCTOBER 22, 2024"
+set_global_assignment -name LAST_QUARTUS_VERSION "19.1.0 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/tops/tb/tb_single_cycle_top_primes.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/tops/tb/tb_single_cycle_top_mandelbrot.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/tops/tb/tb_single_cycle_top_gcd.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/tops/tb/tb_single_cycle_top_factorial.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/tops/tb/tb_single_cycle_BRAM_top_primes.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/tops/tb/tb_single_cycle_BRAM_top_mandelbrot.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/tops/tb/tb_single_cycle_BRAM_top_hanoi.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/tops/tb/tb_single_cycle_BRAM_top_gcd.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/tops/tb/tb_single_cycle_BRAM_top_fibonacci.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/tops/tb/tb_single_cycle_BRAM_top_factorial.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/tops/src/single_cycle_top.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/tops/src/single_cycle_BRAM_top.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/memory/single_cycle_memory/tb/tb_single_cycle_memory_subsystem.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/memory/single_cycle_memory/src/single_cycle_memory_subsystem.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/memory/main_memory/tb/tb_main_memory_interface.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/memory/main_memory/tb/tb_main_memory.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/memory/main_memory/src/main_memory_interface.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/memory/main_memory/src/main_memory.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/memory/dual_port_BRAM_memory/tb/tb_dual_port_BRAM_memory_subsystem.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/memory/dual_port_BRAM_memory/src/dual_port_BRAM_memory_subsystem.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/tb/tb_simple_dual_port_ram.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/tb/tb_memory_interface.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/tb/tb_dual_port_RAM.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/tb/tb_dual_port_BRAM_byte_en_flat.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/tb/tb_dual_port_BRAM_byte_en.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/tb/tb_dual_port_BRAM.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/tb/tb_BSRAM_byte_en_flat.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/tb/tb_BSRAM_byte_en.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/tb/tb_BSRAM.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/tb/tb_BRAM_byte_en.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/tb/tb_BRAM.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/src/simple_dual_port_ram.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/src/memory_interface.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/src/dual_port_RAM.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/src/dual_port_BRAM_byte_en_flat.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/src/dual_port_BRAM_byte_en.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/src/dual_port_BRAM.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/src/BSRAM_byte_en_flat.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/src/BSRAM_byte_en.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/src/BSRAM.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/src/BRAM_byte_en.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/memory/base/src/BRAM.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/io/uart/tb/tb_uart_tx.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/io/uart/tb/tb_uart_rx.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/io/uart/tb/tb_mm_uart.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/io/uart/src/uart_tx.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/io/uart/src/uart_rx.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/io/uart/src/mm_uart.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/io/register/tb/tb_mm_register.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/io/register/src/mm_register.v
+set_global_assignment -name SOURCE_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/includes/params.h
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/cores/single_cycle/tb/tb_single_cycle_core.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/cores/single_cycle/tb/tb_single_cycle_control_unit.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/cores/single_cycle/src/single_cycle_core.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/cores/single_cycle/src/single_cycle_control_unit.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/tb/tb_writeback_unit.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/tb/tb_regFile.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/tb/tb_memory_receive.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/tb/tb_memory_issue.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/tb/tb_hazard_detection_unit.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/tb/tb_fetch_receive.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/tb/tb_fetch_issue.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/tb/tb_execution_unit.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/tb/tb_decode_unit.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/tb/tb_control_unit.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/tb/tb_ALU.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/writeback_unit.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/regFile.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/memory_receive.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/memory_issue.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/hazard_detection_unit.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/fetch_receive.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/fetch_issue.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/execution_unit.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/decode_unit.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/control_unit.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/cores/base/src/ALU.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/common/tb/tb_priority_encoder.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/common/tb/tb_pipeline_register.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/common/tb/tb_fifo.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/common/src/priority_encoder.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/common/src/pipeline_register.v
+set_global_assignment -name VERILOG_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/common/src/fifo.v
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name VERILOG_SHOW_LMF_MAPPING_MESSAGES OFF
+set_global_assignment -name VERILOG_MACRO "INCLUDE_FILE=\"../../../includes/params.h\""
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -section_id eda_simulation
+set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH tb_single_cycle_top_primes -section_id eda_simulation
+set_global_assignment -name EDA_TEST_BENCH_NAME tb_single_cycle_top_primes -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id tb_single_cycle_top_primes
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tb_single_cycle_top_primes -section_id tb_single_cycle_top_primes
+set_global_assignment -name EDA_TEST_BENCH_NAME tb_single_cycle_top_mandelbrot -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id tb_single_cycle_top_mandelbrot
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tb_single_cycle_top_mandelbrot -section_id tb_single_cycle_top_mandelbrot
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name EDA_TEST_BENCH_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/tops/tb/tb_single_cycle_top_primes.v -section_id tb_single_cycle_top_primes
+set_global_assignment -name EDA_TEST_BENCH_FILE Trireme_Platform_v1.1/Trireme_Design/rtl/tops/tb/tb_single_cycle_top_mandelbrot.v -section_id tb_single_cycle_top_mandelbrot
