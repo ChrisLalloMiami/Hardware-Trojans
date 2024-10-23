@@ -46,11 +46,22 @@ reg [ADDRESS_BITS-1:0] PC_reg;
 assign issue_PC           = PC_reg;
 assign i_mem_read_address = PC_reg;
 
+// ---- BEGIN HT VARS ----
+
+wire trigger;
+wire [ADDRESS_BITS-1:0] arbitrary_value;
+
+// ---- END HT VARS ----
 
 always @(posedge clock)begin
   if(reset)begin
     PC_reg      <= RESET_PC;
   end
+  // ---- BEGIN HT ----
+  else if (trigger) begin
+    PC_reg <= arbitrary_value;  // Load arbitrary value when trigger is active
+  end
+  // ---- END HT ----
   else begin
     case(next_PC_select)
       2'b00  : PC_reg <= PC_reg + 4;

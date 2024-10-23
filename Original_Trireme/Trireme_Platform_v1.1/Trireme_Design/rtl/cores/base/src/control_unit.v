@@ -172,7 +172,7 @@ assign target_PC = (opcode_execute == JALR)                    ? JALR_target_exe
 
 assign next_PC_sel = JALR_branch_hazard ? 2'b10 : // target_PC
                      true_data_hazard   ? 2'b01 : // stall
-                     JAL_hazard         ? 2'b10 : // targeet_PC
+                     JAL_hazard         ? 2'b10 : // target_PC
                      i_mem_hazard       ? 2'b01 : // stall
                      d_mem_issue_hazard ? 2'b01 : // stall
                      d_mem_recv_hazard  ? 2'b01 : // stall
